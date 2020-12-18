@@ -9,13 +9,13 @@ public class UserValidationDemo {
         UserValidationService validationService = new UserValidationService();
         System.out.println("Validation 1");
         System.out.println("--------------");
-        validationService.validate(validUser);
+        System.out.println(validationService.validate(validUser));
         System.out.println("\nValidation 2");
         System.out.println("--------------");
-        validationService.validate(invalidUser2);
+        System.out.println(validationService.validate(invalidUser2));
         System.out.println("\nValidation 3");
         System.out.println("--------------");
-        validationService.validate(invalidUser16);
-   }
+        System.out.println(validationService.validate(invalidUser16));
+    }
 
 }
